@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, send_file
 import os
 from pdfminer.high_level import extract_text
-import google.generativeai as genai
+from google import genai
 from pdfminer.pdfparser import PDFSyntaxError
 
 # Initialize Flask app
