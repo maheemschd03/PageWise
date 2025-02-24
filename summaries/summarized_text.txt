@@ -1,0 +1,40 @@
+--- Page 1 ---
+## CHSW LAB WORK - Smart Parking Project: Summary
+
+This document outlines a smart parking project being undertaken by Group 11 in the CHSW lab.  The project identifies common parking challenges and proposes technology-driven solutions.
+
+**1. Problem Statement:**
+
+Traditional parking systems face the following issues:
+
+*   **Limited Parking & Increased Vehicles:** Too many cars, not enough spaces.
+*   **Consequences:**  This leads to wasted time, fuel wastage, traffic congestion, and driver frustration as people search for parking.
+*   **Manual Processes:** Manual vehicle checks by security personnel cause further delays and inefficiencies.
+*   **Profitability Issues:** Ineffective pricing and inefficient space utilization result in low profitability for parking services.
+
+**2. Relevant Research (Note: Dates are in the future, suggesting a theoretical proposal):**
+
+The project draws inspiration from the following (hypothetical) research papers:
+
+*   **Paper 1: "Enabling Smart Parking for Smart Cities Using Internet of Things (IoT) and Machine Learning"** - Focuses on utilizing IoT and Machine Learning to create smart, efficient parking systems.
+*   **Paper 2: "Two-Stage Efficient Parking Space Detection Method Based on Deep Learning and Computer Vision"** - Concentrates on using Deep Learning and Computer Vision to accurately detect available parking spaces.
+
+**3. Proposed Improvements:**
+
+Group 11 proposes the following solutions to address the identified problems:
+
+*   **ML-Based Pricing Model (Dynamic Pricing):** Implement a dynamic pricing system driven by Machine Learning that adjusts prices based on real-time demand, time of day, and space availability to maximize revenue and manage demand.
+*   **Three-Dimensional Stakeholder Model:**  Design the system to optimize benefits for all stakeholders involved: drivers (ease of parking), parking staff (efficient operations), and service owners (increased profitability).
+*   **Enhanced Vacant Space Detection:**  Employ advanced computer vision techniques to significantly improve the accuracy of detecting available parking spaces.
+*   **Improper Parking Alerts:**  Develop a system to automatically detect and notify about vehicles parked incorrectly (e.g., across lines, in restricted areas) to ensure compliance and maximize space utilization.
+
+**In essence, Group 11 aims to create a smart parking system that is efficient, profitable, and beneficial to all parties involved by using machine learning, computer vision, and a stakeholder-centric design approach.** The proposal is forward-thinking, leveraging future technologies to solve current parking problems.
+
+--- Page 2 ---
+## Dynamic Pricing Model Explained
+
+This document describes a simplified dynamic pricing model. It illustrates how various factors influence the price of a product or service, with the ultimate goal of maximizing profit.
+
+**What is a Pricing Model?**
+
+A pricing model is a structured system or set of rules used to calculate the price of a 
