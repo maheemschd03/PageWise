@@ -16,7 +16,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(SUMMARY_FOLDER, exist_ok=True)
 
 # Configure Gemini AI
-genai.configure(api_key="AIzaSyCGRagRWD_XWzdlR6ZGgJfyeKZM6agwMw4")
+client = genai.Client(api_key="AIzaSyCGRagRWD_XWzdlR6ZGgJfyeKZM6agwMw4")
 
 
 def summarize(text):
@@ -30,11 +30,17 @@ def summarize(text):
         ]
 
         # Generate elaboration
-        model = genai.GenerativeModel('gemini-2.0-flash')
-        explanation = model.generate_content(prompts[0]).text.strip()
+        response = client.models.generate_content(
+            model="gemini-2.0-flash", contents=prompts[0]
+        )
+        explanation = response.text.strip()
 
         # Clean and format the explanation
-        summary = model.generate_content(f"{prompts[1]} Text: {explanation}").text.strip()
+        response = client.models.generate_content(
+            model="gemini-2.0-flash", contents=f"{prompts[1]} Text: {explanation}"
+        )
+        summary = response.text.strip()
+
         return summary
 
     except Exception as e:
